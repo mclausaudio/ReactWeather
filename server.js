@@ -17,6 +17,6 @@ const express = require("express"),
 
 
 
-    app.listen(port, function(){
+    app.listen(PORT, function(){
       console.log(chalk.blue("server up on " + PORT));
     });
