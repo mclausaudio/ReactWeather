@@ -1,6 +1,5 @@
 const express = require("express"),
     app = express(),
-    chalk = require('chalk'),
     PORT = process.env.PORT || 3000;
 
     app.use(function (req, res, next) {
@@ -18,5 +17,5 @@ const express = require("express"),
 
 
     app.listen(PORT, function(){
-      console.log(chalk.blue("server up on " + PORT));
+      console.log("server up on " + PORT);
     });
