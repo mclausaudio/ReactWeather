@@ -5,7 +5,7 @@ var WeatherMessage = ({temp, location}) => {
   // the line below is defined in the line above
   // var {temp, location} = props;
   return (
-    <h3 className="text-centered">It's {temp} degress in {location}</h3>
+    <h3 className="text-center">It's {temp} degress in {location}</h3>
   );
 }
 

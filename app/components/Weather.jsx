@@ -54,7 +54,7 @@ var Weather = React.createClass({
 
     return (
       <div>
-        <h1 className="text-centered">Get Weather</h1>
+        <h1 className="text-center page-title">Get Weather</h1>
         {/* pass in handleSearch() by assigning it to a prop called onSearch*/}
         <WeatherForm onSearch={this.handleSearch}/>
         {/* pass in variables to component by adding them as properties */}
